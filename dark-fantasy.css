@@ -1,0 +1,67 @@
+body {
+    background-color: #161616;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container.main {
+    background-color: #161616;
+    border: 2px solid #330000;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+#df-header {
+    background-image: url("PUT-HEADER-IMAGE-URL-HERE");
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    border: 2px solid #291300;
+}
+
+.df-section {
+    background-color: #1c1c1c;
+    border: 2px solid #330000;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 20px;
+}
+
+.df-section.scroll {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.df-section h1,
+.df-section h2 {
+    color: #987e2f;
+    border-bottom: 1px solid #330000;
+    padding-bottom: 5px;
+}
+
+.df-section p {
+    color: #90919b;
+    line-height: 1.6;
+}
+
+.df-image {
+    background-image: url("PUT-DIVIDER-IMAGE-URL-HERE");
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #291300;
+}
+
+a {
+    color: #987e2f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
