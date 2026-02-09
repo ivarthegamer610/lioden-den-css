@@ -65,3 +65,42 @@ a {
 a:hover {
     color: #ffffff;
 }
+/* ===== MAKE MAIN PAGE AREA DARK ===== */
+html, body {
+  background: #330000 !important; /* your dark red */
+}
+
+/* The big content column behind your custom boxes */
+.col-md-9, .col-md-9.col-xs-12 {
+  background: #330000 !important;
+}
+/* ===== BLACK BACKGROUND WITH CENTER CROSS STRIPES ===== */
+body {
+  background-color: #000 !important;
+
+  /* Two centered stripes: one vertical, one horizontal */
+  background-image:
+    linear-gradient(to right,
+      transparent calc(50% - 2px),
+      #ffffff calc(50% - 2px),
+      #ffffff calc(50% + 2px),
+      transparent calc(50% + 2px)
+    ),
+    linear-gradient(to bottom,
+      transparent calc(50% - 2px),
+      #ffffff calc(50% - 2px),
+      #ffffff calc(50% + 2px),
+      transparent calc(50% + 2px)
+    ) !important;
+
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  background-attachment: fixed !important;
+}
+/* ===== REPLACE THE EMPTY IMAGE BOX WITH A CLEAN DIVIDER ===== */
+.df-image {
+  background: #000 !important;
+  border: 2px solid #291300 !important;
+  height: 40px !important;
+  border-radius: 14px !important;
+}
